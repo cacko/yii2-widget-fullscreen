@@ -31,7 +31,7 @@ class FullScreenWidget extends Widget
 
         echo Html::endTag('div');
 
-        FullScreenAsset::registerWidget($this);
+        FullScreenAsset::registerWidget($this, $this->defaults);
     }
 
     protected function renderIcon()
