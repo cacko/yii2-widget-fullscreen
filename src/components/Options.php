@@ -24,6 +24,10 @@ class Options extends Component implements JsonSerializable
 
     public string $selectorOverflowScroll = '.fullscreen-scroll';
 
+    public string $classWidget = 'fullscreen-widget';
+
+    public string $selectorWidget = '.fullscreen-widget';
+
     const JS_OPTIONS = ['selectorToggle', 'selectorFullScreen', 'iconExpand', 'iconCollapse', 'classOverflowScroll'];
 
     public function jsonSerialize()
