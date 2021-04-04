@@ -41,7 +41,7 @@
         },
         onFullScreenChange: function (e) {
             const isInFullScreen = this.isInFullscreen;
-            this._target.find(`${this.options.iconClass} i`).toggleClass(`${this.options.iconExpand} ${this.options.iconCollapse}`);
+            this._target.find(`${this.options.selectorToggle} i`).toggleClass(`${this.options.iconExpand} ${this.options.iconCollapse}`);
             this._target.trigger(`fullscreen-${isInFullScreen ? 'enter' : 'exit'}`);
             this._target.find(this.options.selectorFullScreen).toggleClass(this.options.classOverflowScroll, isInFullScreen);
         }
