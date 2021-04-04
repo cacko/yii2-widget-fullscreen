@@ -20,4 +20,4 @@ echo FullScreenWidget::widget(['content' => Html::img('/start.webp')]);
 
 ```
 
-there's bunch of defaults in `Cacko\Yii2\Widgets\FullScreen\components\FullScreenDefaults`, as usual if you think they are shit, feel free to inject your own bollocks, just keep in mind you will have to bother with the css styles too - good luck
+there's bunch of defaults in `Cacko\Yii2\Widgets\FullScreen\components\Options`, as usual if you think they are shit, feel free to inject your own bollocks, just keep in mind you will have to bother with the css styles too - good luck
