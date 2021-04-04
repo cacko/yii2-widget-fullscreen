@@ -50,4 +50,32 @@
       }
     }
   }
+
+  &.top-right {
+    .fs-toggle__icon {
+      right: 0;
+      top: 0;
+    }
+  }
+
+  &.bottom-right {
+    .fs-toggle__icon {
+      right: 0;
+      top: 0;
+    }
+  }
+
+  &.top-left {
+    .fs-toggle__icon {
+      left: 0;
+      top: 0;
+    }
+  }
+
+  &.bottom-left {
+    .fs-toggle__icon {
+      left: 0;
+      bottom: 0;
+    }
+  }
 }
