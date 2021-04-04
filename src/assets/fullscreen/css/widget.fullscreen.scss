@@ -78,4 +78,11 @@
       bottom: 0;
     }
   }
+
+  &.center-center {
+    .fs-toggle__icon {
+      left: calc(50% - 1.75em);
+      top: calc(50% - 1.75em);
+    }
+  }
 }

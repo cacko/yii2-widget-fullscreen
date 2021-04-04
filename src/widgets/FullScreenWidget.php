@@ -14,6 +14,7 @@ class FullScreenWidget extends Widget
     const TOP_LEFT = 'top-left';
     const BOTTOM_RIGJT = 'bottom-right';
     const BOTTOM_LEFT = 'bottom-left';
+    const CENTER_CENTER = 'center-center';
 
     public string $togglePosition = 'bottom-right';
 
