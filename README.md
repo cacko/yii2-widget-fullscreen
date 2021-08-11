@@ -3,8 +3,7 @@
 Silly and useless straightfoward way to wrap your junk html containeirs in yii2 with a fullscreen functionality
 
 ## Demo
-* demo - https://cacko-yii2.herokuapp.com/fullscreen/widget
-* src - https://github.com/cacko/yii2-widgets/tree/master/modules/fullscreen
+* demo - https://yii.cacko.net/fullscreen/widget
 
 ## Install
 ```shell
