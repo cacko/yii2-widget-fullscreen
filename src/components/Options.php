@@ -30,7 +30,7 @@ class Options extends Component implements JsonSerializable
 
     const JS_OPTIONS = ['selectorToggle', 'selectorFullScreen', 'iconExpand', 'iconCollapse', 'classOverflowScroll'];
 
-    public function jsonSerialize()
+    public function jsonSerialize(): mixed
     {
         return array_reduce(static::JS_OPTIONS, fn ($res, $option) => array_merge($res, [$option => $this->{$option}]), []);
     }
